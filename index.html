@@ -13,7 +13,6 @@
       name="keywords"
       content="Soulful Sips, handcrfted drinks, tea, coffee, wellness"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,16 +39,16 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#recipes">Recipes</a>
+              <a class="nav__links" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#book-a-table">Book a table</a>
+              <a class="nav__links" href="#reservation">Book a table</a>
             </li>
             <li>
-              <a class="nav__link" href="#menu">Menu</a>
+              <a class="nav__links" href="#menu">Menu</a>
             </li>
             <li>
-              <a class="nav__link" href="#contacts">Contacts</a>
+              <a class="nav__links" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -116,14 +115,14 @@
             </li>
           </ul>
         </section>
-        <section class="reservation">
+        <section id="reservation" class="reservation">
          <h2 class="reservation__title">Book a table</h2>
          <form class="reservation__form form">
          <fieldset class="reservation__fieldset">
            <label for="name-input" class="reservation__label">Name *
-            <input required type="text" class="reservation-form__input" id="name-input" placeholder="Name Surname"/></label>
+            <input required type="text" class="reservation__input" id="name-input" placeholder="Name Surname"/></label>
             <label for="guests-input" class="reservation__label">Number of guests *
-            <input required type="number" class="reservation__input" id="number-of-guests-input" min="1" max ="8" placeholder="1-8"/></label>
+            <input required type="number" class="reservation__input" id="number-of-guests-input" min="1" max="8" placeholder="1-8"/></label>
             <label for="datetime-input" class="reservation__label">Date and time *
             <input required type="datetime-local" class="reservation__input" id="datetime-input" /></label>
             <label for="email-input" class="reservation__label">Your email *
@@ -135,7 +134,7 @@
           <button class="reservation__button" type="submit">Book a table</button>
          </form>
         </section>
-        <section class="menu">
+        <section id="menu" class="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
              We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable
@@ -231,10 +230,10 @@
             </p>
           </div>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-      <footer class="footer">
+      <footer id="footer" class="footer">
         <div class="footer__content">
           <img src="./images/logo_coffeeshop_light.svg" alt="Triple Expresso logo" class="footer__logo"
           />

@@ -24,11 +24,11 @@
 .menu__subtitle {
   margin: 0 0 100px;
   text-align: center;
-  font-family: Inter;
+  font-family: "Noto Serif";
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 30px;
   color: #000;
 }
 
@@ -42,3 +42,9 @@
   justify-content: center;
 }
 
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
