@@ -1,0 +1,18 @@
+.inter-uniquifier {
+  font-family: "Inter", Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.noto-serif-uniquifier {
+  font-family: "Noto Serif", Times New Roman, serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-variation-settings: width 100;
+}
